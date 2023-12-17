@@ -35,6 +35,55 @@ export const links = [
         url:"#plus"
     },
 ];
+export const footerLinks = [
+    {
+        title:"Product",
+        links:[
+            {
+                title:"Features",
+                link:"#features",
+            },
+            {
+                title:"Pricing",
+                link:"#pricing",
+            },
+            {
+                title:"Sign Up",
+                link:"#sign-up",
+            }
+        ]
+    },
+    {
+        title:"Company",
+        links:[
+            {
+                title:"Customer Stories",
+                link:"#customer-stories",
+            },
+            {
+                title:"About",
+                link:"#about",
+            },
+            {
+                title:"Contact",
+                link:"#contact",
+            }
+        ]
+    },
+    {
+        title:"Resources",
+        links:[
+            {
+                title:"Support",
+                link:"#support",
+            },
+            {
+                title:"Blog",
+                link:"#blog",
+            }
+        ]
+    }
+];
 
 export const faq = [
     {
