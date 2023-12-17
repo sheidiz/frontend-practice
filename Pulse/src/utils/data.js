@@ -20,6 +20,33 @@ export const links = [
         url:"#blog"
     },
     {
+        type: "button",
+        title:"Sign Up",
+        url:"#plus"
+    },
+];
+export const linksMobile = [
+    {
+        type: "link",
+        title:"Features",
+        url:"#features"
+    },
+    {
+        type: "link",
+        title:"Costumer Stories",
+        url:"#costumer-stories"
+    },
+    {
+        type: "link",
+        title:"Pricing",
+        url:"/"
+    },
+    {
+        type: "link",
+        title:"Blog",
+        url:"#blog"
+    },
+    {
         type: "link",
         title:"Contact",
         url:"#contact"
@@ -27,7 +54,7 @@ export const links = [
     {
         type: "link",
         title:"Support",
-        url:""
+        url:"#support"
     },
     {
         type: "button",
@@ -35,6 +62,7 @@ export const links = [
         url:"#plus"
     },
 ];
+
 export const footerLinks = [
     {
         title:"Product",
