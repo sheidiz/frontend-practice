@@ -1,117 +1,143 @@
+import SubvertAvatar from "../assets/subvert-avatar-png";
+
 export const links = [
     {
         type: "link",
-        title:"Features",
-        url:"#features"
+        title: "Features",
+        url: "#features"
     },
     {
         type: "link",
-        title:"Costumer Stories",
-        url:"#costumer-stories"
+        title: "Costumer Stories",
+        url: "#costumer-stories"
     },
     {
         type: "link",
-        title:"Pricing",
-        url:"/"
+        title: "Pricing",
+        url: "/"
     },
     {
         type: "link",
-        title:"Blog",
-        url:"#blog"
+        title: "Blog",
+        url: "#blog"
     },
     {
         type: "button",
-        title:"Sign Up",
-        url:"#plus"
+        title: "Sign Up",
+        url: "#plus"
     },
 ];
 export const linksMobile = [
     {
         type: "link",
-        title:"Features",
-        url:"#features"
+        title: "Features",
+        url: "#features"
     },
     {
         type: "link",
-        title:"Costumer Stories",
-        url:"#costumer-stories"
+        title: "Costumer Stories",
+        url: "#costumer-stories"
     },
     {
         type: "link",
-        title:"Pricing",
-        url:"/"
+        title: "Pricing",
+        url: "/"
     },
     {
         type: "link",
-        title:"Blog",
-        url:"#blog"
+        title: "Blog",
+        url: "#blog"
     },
     {
         type: "link",
-        title:"Contact",
-        url:"#contact"
+        title: "Contact",
+        url: "#contact"
     },
     {
         type: "link",
-        title:"Support",
-        url:"#support"
+        title: "Support",
+        url: "#support"
     },
     {
         type: "button",
-        title:"Sign Up",
-        url:"#plus"
+        title: "Sign Up",
+        url: "#plus"
     },
 ];
 
 export const footerLinks = [
     {
-        title:"Product",
-        links:[
+        title: "Product",
+        links: [
             {
-                title:"Features",
-                link:"#features",
+                title: "Features",
+                link: "#features",
             },
             {
-                title:"Pricing",
-                link:"#pricing",
+                title: "Pricing",
+                link: "#pricing",
             },
             {
-                title:"Sign Up",
-                link:"#sign-up",
+                title: "Sign Up",
+                link: "#sign-up",
             }
         ]
     },
     {
-        title:"Company",
-        links:[
+        title: "Company",
+        links: [
             {
-                title:"Customer Stories",
-                link:"#customer-stories",
+                title: "Customer Stories",
+                link: "#customer-stories",
             },
             {
-                title:"About",
-                link:"#about",
+                title: "About",
+                link: "#about",
             },
             {
-                title:"Contact",
-                link:"#contact",
+                title: "Contact",
+                link: "#contact",
             }
         ]
     },
     {
-        title:"Resources",
-        links:[
+        title: "Resources",
+        links: [
             {
-                title:"Support",
-                link:"#support",
+                title: "Support",
+                link: "#support",
             },
             {
-                title:"Blog",
-                link:"#blog",
+                title: "Blog",
+                link: "#blog",
             }
         ]
     }
 ];
+
+export const plans = [
+
+    {
+        name: "Pulse Basics",
+        features: ["Manage cash flow on a daily, weekly, monthly, or yearly basis", "Forecast growth with recurring income or expenses that scale automatically", "Works with any currency", "See Money In and Money Out, categorize transactions, and run helpful reports", "Toggle entries and accounts on and off to game out different scenarios"]
+    },
+    {
+        name: "Small Business",
+        features: ["Manage cash flow across multiple financial accounts", "Invite your investors, book keeper, or management team to see reports or manage cash flow", "Integrate with QuickBooks Online for more accurate cash flow", "Track your actual cash flow alongside your projected cash flow"]
+    },
+    {
+        name: "Premium",
+        features: ["Manage cash flow across unlimited financial accounts", "Convert to any currency for localized cash flow reporting and projections", "Attach invoices or contracts to your cash flow entries for accountability and auditing"]
+    }
+]
+
+export const reviews = [
+    {
+        company: "Subvert",
+        text: "Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.",
+        image: { SubvertAvatar }
+    }
+]
 
 export const faq = [
     {
